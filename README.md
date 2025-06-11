@@ -27,7 +27,7 @@ The following figure shows visual examples of thyroid nodule segmentation result
 
 ### 📷 Sample Outputs
 
-![Sample Results](/sample_visual_results.png)
+![Sample Results](/data_sanitycheck.png)
 
 > *Left: Input Ultrasound Image | Middle: Ground Truth Mask | Right: MedSAM Prediction*
 
