@@ -37,9 +37,9 @@ To view more examples, see the [`tn3k_infer_results/`](results/) directory.
 
 ## 📂 Dataset
 
-We used the **TN3K dataset**, a publicly available thyroid ultrasound dataset for segmentation tasks. You can access it from: [https://github.com/arnoweng/DDTI](https://github.com/arnoweng/DDTI)
+We used the **TN3K dataset** for thyroid ultrasound segmentation tasks.  
+If you need access to the original dataset, please contact me at **424umar@gmail.com**.
 
----
 
 ## 🛠️ How to Reproduce
 
