@@ -36,8 +36,8 @@ class DiceLoss(nn.Module):
         return dice_loss
 
 # Get all image and mask paths
-image_dir = "/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-image"
-mask_dir = "/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-mask"
+image_dir = "./TN3K/trainval-image"
+mask_dir = "./TN3K/trainval-mask"
 
 all_images = sorted(glob(os.path.join(image_dir, "*")))
 all_masks = sorted(glob(os.path.join(mask_dir, "*")))
