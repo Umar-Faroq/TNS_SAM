@@ -111,8 +111,8 @@ class TN3KDataset(Dataset):
 
 # %% sanity test of dataset class
 tr_dataset = TN3KDataset(
-    image_dir="/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-image",
-    mask_dir="/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-mask"
+    image_dir="./TN3K/trainval-image",
+    mask_dir="./TN3K/trainval-mask"
 )
 tr_dataloader = DataLoader(tr_dataset, batch_size=8, shuffle=True)
 for step, (image, gt, bboxes, names_temp) in enumerate(tr_dataloader):
@@ -298,8 +298,8 @@ def main():
     losses = []
     best_loss = 1e10
     train_dataset = TN3KDataset(
-    image_dir="/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-image",
-    mask_dir="/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/trainval-mask"
+    image_dir="./TN3K/trainval-image",
+    mask_dir="./TN3K/trainval-mask"
 )
 
 
