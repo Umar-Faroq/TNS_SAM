@@ -10,10 +10,10 @@ from glob import glob
 import pandas as pd
 all_dice, all_iou, all_precision, all_recall, all_specificity, all_accuracy = [], [], [], [], [], []
 # ============ CONFIG ============
-image_path = "/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/test-image/"
-mask_path = "/home/dilab/ext_drive/Thyroid_Nodule_segmentation/Thyroid_Dataset/TN3K/test-mask/"
+image_path = "./TN3K/test-image/"
+mask_path = "./TN3K/test-mask/"
 save_path = "./tn3k_infer_results"
-model_ckpt = "/home/dilab/ext_drive/Thyroid_Nodule_segmentation/MICCAI2025/Comparision/MedSAM/work_dir/medsam_vit_b.pth"
+model_ckpt = "./MedSAM/work_dir/medsam_vit_b.pth"
 device = "cuda:0"
 
 os.makedirs(save_path, exist_ok=True)
